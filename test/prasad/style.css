@@ -1,0 +1,103 @@
+#addMemberModal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#addMemberModal form {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+}
+
+#addMemberModal label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#addMemberModal input[type="text"],
+#addMemberModal select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#addMemberModal input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+#addMemberModal input[type="submit"]:hover {
+    background-color: #438cdb;
+}
+.close {
+    color: #aaaaaa;
+    float: right;
+    /* font-size: 28px; */
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-header {
+    padding:0;
+    border-bottom: 1px solid #ccc;
+}
+
+.modal-header .close {
+    float: right;
+    cursor: pointer;
+    font-size: 40px;
+    margin:-12px 0 0 0;
+}
+.modal-body {
+    padding: 20px 0;
+}
+.modal-body .close {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 15px;
+    border: 2px;
+    cursor: pointer;
+}
+
+.modal-body .close:hover,
+.modal-header .close:focus,
+.modal-body .close:focus {
+    /* color: black; */
+    background-color: #438cdb;
+    text-decoration: none;
+    cursor: pointer;
+}
+.btn-align {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+}
+.btn-add {
+    margin-right: 10px; 
+}
+#addMemberBtn{
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
